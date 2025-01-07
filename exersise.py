@@ -8,3 +8,13 @@
 user = input ('which year were you born in')
 age =   2019 - int(user)
 print (age)
+
+
+
+
+#ask a user their weight in pounds , convert it into killograms and print in on the terminal
+
+
+weight_in_lbs = input ("whats your weight(lbs) ")
+weight_in_kgs = int (weight_in_lbs) *  0.45
+print ('your weight is', weight_in_kgs)
